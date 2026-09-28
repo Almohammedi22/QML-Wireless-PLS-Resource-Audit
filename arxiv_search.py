@@ -4,6 +4,7 @@ Usage:
     python arxiv_search.py            # run Tier 1 and Tier 2, write CSV and query files
     python arxiv_search.py --tier 2   # run one tier
     python arxiv_search.py --dry-run  # print the queries only, no network
+    python arxiv_search.py --test     # three single requests that diagnose an HTTP 406
 
 Standard library only. Follows the arXiv API terms: one request every 3 seconds.
 The API searches free text only (no keyword field), so every term is matched in
@@ -23,10 +24,10 @@ NS = {"a": "http://www.w3.org/2005/Atom",
 
 QML_PHRASES = ["variational quantum", "parameterized quantum circuit", "quantum kernel",
                "quantum support vector", "hybrid quantum-classical", "quantum deep unfolding"]
-QML_WITH_QUANTUM = ["learning", "neural", "reinforcement", "policy", "adversarial", "GAN"]
+QML_WITH_QUANTUM = ["learning", "neural", "reinforcement", "policy", "adversarial", "GAN", "transformer"]
 WIRELESS = ["wireless", "radio", "physical layer", "physical-layer", "satellite", "UAV",
-            "MIMO", "beamforming"]
-DESIGN = ["beamforming", "precoding", "power allocation", "power control", "transmit power",
+            "MIMO", "beamforming", "NOMA", "RIS", "mmWave"]
+DESIGN = ["beamforming", "precoding", "beam prediction", "power allocation", "power control", "transmit power",
           "resource allocation", "reconfigurable intelligent surface",
           "intelligent reflecting surface", "stacked intelligent metasurface",
           "channel estimation", "UAV", "unmanned aerial vehicle"]
@@ -58,20 +59,30 @@ def build_query(tier):
     return f"{qml} AND {group(WIRELESS)} AND {group(third)}"
 
 
+HEADERS = {  # arXiv's API answers HTTP 406 to requests that do not ask for Atom explicitly
+    "User-Agent": "qml-pls-review-search/1.1 (systematic literature search; Python urllib)",
+    "Accept": "application/atom+xml",
+    "Accept-Language": "en",
+}
+
+
 def fetch(query, start, n):
     url = API + "?" + urllib.parse.urlencode({
         "search_query": query, "start": start, "max_results": n,
         "sortBy": "submittedDate", "sortOrder": "ascending"})
-    req = urllib.request.Request(url, headers={"User-Agent": "qml-pls-review-search/1.0"})
+    req = urllib.request.Request(url, headers=HEADERS)
     for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 return r.read()
-        except Exception as e:  # network error or HTTP 5xx: wait and retry
+        except Exception as e:  # network error, HTTP 406 or 5xx: wait and retry
             if attempt == 3:
-                raise
-            print(f"  request failed ({e}); retrying in {10 * (attempt + 1)} s")
-            time.sleep(10 * (attempt + 1))
+                sys.exit(f"\narXiv refused the request four times ({e}).\n"
+                         "Wait 30 minutes and run the script again. "
+                         "If it fails again, send a screenshot of this window.")
+            wait = 30 * (attempt + 1)
+            print(f"  request failed ({e}); retrying in {wait} s")
+            time.sleep(wait)
 
 
 def parse(xml_bytes):
@@ -120,11 +131,45 @@ def run(tier, fetcher=fetch, delay=DELAY):
     return query, total, list(rows.values())
 
 
+def diagnose():
+    """Three single requests that show why arXiv refuses the search. Makes no files."""
+    tests = [("short, common query", "ti:electron"),
+             ("short, rare query", 'abs:"variational quantum" AND abs:beamforming'),
+             ("full Tier 2 query", build_query(2))]
+    ok = {}
+    for i, (name, q) in enumerate(tests):
+        if i:
+            time.sleep(DELAY)
+        url = API + "?" + urllib.parse.urlencode({"search_query": q, "start": 0, "max_results": 1})
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=60) as r:
+                ok[name] = True
+                print(f"  {name} ({len(url)} characters): OK, HTTP {r.status}")
+        except Exception as e:
+            ok[name] = False
+            print(f"  {name} ({len(url)} characters): FAILED, {e}")
+    a, b, c = (ok[n] for n, _ in tests)
+    if not a:
+        print("\nResult: arXiv refuses even a simple request from this network. Try another network, "
+              "such as a phone hotspot, and run the test again.")
+    elif not b:
+        print("\nResult: arXiv is throttling uncached requests from this network. Try another network, "
+              "such as a phone hotspot, and run the test again.")
+    elif not c:
+        print("\nResult: only the long query is refused. Send this screenshot; the fix is to split the query.")
+    else:
+        print("\nResult: all three requests worked. Run the search again: python arxiv_search.py")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tier", type=int, choices=[1, 2])
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--test", action="store_true", help="diagnose an HTTP 406 refusal")
     args = ap.parse_args()
+    if args.test:
+        print("Testing the connection to arXiv (three requests, about 10 seconds) ...")
+        return diagnose()
     today = datetime.date.today().isoformat()
     for tier in ([args.tier] if args.tier else [1, 2]):
         query = build_query(tier)
