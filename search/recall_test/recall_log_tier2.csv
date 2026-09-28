@@ -1,0 +1,36 @@
+tier,bib_key,title,venue,S1_scopus_0007UTC,S2_scopus_0021UTC,TITLEcheck_scopus_0023UTC,XA_xplore_0036UTC,XB_xplore_0044UTC,S3_scopus_0054UTC,note
+T1,b761,Quantum deep reinforcement learning for secure multi-user UAV RSMA networks,"Proc. 12th IFIP Int. Conf. New Technologies, Mobility and Security (NTMS)",yes,yes,no,yes,yes,yes,
+T1,b2026_secure_ldma,Secure near-field location division multiple access via quantum--classical learning workflow,IEEE Internet Things J.,yes,yes,no,yes,yes,yes,
+T1,b2026_qrl_sim_pls,Securing SIM-assisted wireless networks via quantum reinforcement learning,arXiv preprint arXiv:2602.13238,no,no,no,no,no,no,Tier-1 study; not a target of the Tier-2 query
+T1,b2025_qdrl_uav_secrecy,Sum secrecy rate optimization in UAV communications using quantum actor-critic reinforcement learning,Proc. 2025 IEEE Globecom Workshops (GC Wkshps),yes,yes,no,yes,yes,yes,
+T1,b2026_qml_rffi,A quantum-optimized training framework for radio frequency fingerprint identification,IEEE J. Sel. Areas Commun.,no,no,no,no,no,no,Tier-1 study; not a target of the Tier-2 query
+T1,b2024_qml_rffi_lora,LoRa radio frequency fingerprinting identification using a hybrid quantum--classical neural network,Proc. IEEE 100th Veh. Technol. Conf. (VTC2024-Fall),no,no,no,no,no,no,Tier-1 study; not a target of the Tier-2 query
+T1,b2026_covert_qrl,STAR-RIS-assisted covert communications in RSMA networks: A quantum reinforcement learning approach,IEEE Trans. Mobile Comput.,yes,no,no,yes,yes,yes,
+T1,b2026_quasar,QUASAR: A quantum-classical neural network for SAR satellite physical-layer authentication,arXiv preprint arXiv:2608.20240,no,no,no,no,no,no,Tier-1 study; not a target of the Tier-2 query
+T1,b2022_sharma_qrl,Secrecy maximization for pico edge users in 5G backhaul HWNs: A quantum RL approach,Proc. IEEE Int. Conf. Adv. Netw. Telecommun. Syst. (ANTS),yes,yes,no,yes,yes,yes,
+T1,b2025_pradhan_qfl,Secure quantum federated learning framework for URLLC in 6G smart healthcare systems,Proc. IEEE Future Netw. World Forum (FNWF),yes,yes,no,yes,yes,yes,
+T2,b70,Quantum AI-Enhanced Deep Reinforcement Learning for Real-Time Adaptive Beamforming in Next-Generation Terahertz Communication Systems,Proc. 2025 Int. Conf. Artif. Intell. Inf. Commun. (ICAIIC),no,yes,yes,no,yes,yes,
+T2,b71,Beam Prediction in mmWave V2I Communications with Quantum Transformer Networks,Proc. 2024 15th Int. Conf. Inf. Commun. Technol. Converg. (ICTC),yes,no,no,no,yes,yes,
+T2,b72,Hybrid quantum-classical neural networks for DL beamforming optimization,IEEE Trans. Wireless Commun.,yes,yes,no,yes,yes,yes,
+T2,b73,Combination of quantum neural network and orthogonal matching pursuit algorithm to optimize hybrid precoding,Proc. Korean Inst. Commun. Inf. Sci. (KICS) Conf.,no,no,no,no,no,no,"Not in Scopus (title check); KICS domestic conference, not an IEEE venue"
+T2,b74,Zero-forcing hybrid precoding with quantum neural network optimization,Proc. Korean Inst. Commun. Inf. Sci. (KICS) Conf.,no,no,no,no,no,no,"Not in Scopus (title check); KICS domestic conference, not an IEEE venue"
+T2,b75,Hybrid precoding optimization based on quantum neural network for multi-user MISO systems,J. Korean Inst. Commun. Inf. Sci.,yes,yes,no,no,no,yes,In Scopus; not carried by Xplore (J. Korean Inst. Commun. Inf. Sci.)
+T2,b76,Quantum deep unfolding for power allocation and precoding optimization,Proc. Korean Inst. Commun. Inf. Sci. (KICS) Conf.,no,no,no,no,no,no,"Not in Scopus (title check); KICS domestic conference, not an IEEE venue"
+T2,b84,Hybrid quantum machine learning model for power allocation in NOMA,Proc. IEEE 8th Int. Conf. Inf. Commun. Technol. (CICT),yes,no,no,yes,yes,yes,
+T2,b85,Unsupervised federated quantum GAN for optimizing wireless communications,Authorea Preprints,no,no,no,no,no,no,Not in Scopus (title check); Authorea preprint
+T2,b87,Statistical quantum federated learning for NOMA power allocation,Proc. Korean Inst. Commun. Inf. Sci. (KICS) Conf.,no,no,no,no,no,no,"Not in Scopus (title check); KICS domestic conference, not an IEEE venue"
+T2,b88,Digital precoder-combiner and power allocation optimization in MU MIMO-NOMA: A quantum neural network approach,J. Korean Inst. Commun. Inf. Sci.,yes,yes,no,no,no,yes,In Scopus; not carried by Xplore (J. Korean Inst. Commun. Inf. Sci.)
+T2,b91,Quantum learning-enabled green communication for next-generation wireless systems,IEEE Trans. Green Commun. Netw.,yes,yes,no,yes,yes,yes,
+T2,b77,Quantum neural networks for resource allocation in wireless communications,IEEE Trans. Wireless Commun.,yes,yes,no,yes,yes,yes,
+T2,b78,Federated quantum neural network with quantum teleportation for resource optimization in future wireless communication,IEEE Trans. Veh. Technol.,yes,yes,no,yes,yes,yes,
+T2,b79,Non-centralized quantum neural networks for cell-free MIMO systems,IEEE Trans. Wireless Commun.,yes,yes,no,yes,yes,yes,
+T2,b80,Quantum deep unfolding based resource allocation optimization for future wireless networks,J. Korean Inst. Commun. Inf. Sci.,yes,yes,no,no,no,yes,In Scopus; not carried by Xplore (J. Korean Inst. Commun. Inf. Sci.)
+T2,b81,Quantum neural network with parallel training for wireless resource optimization,IEEE Trans. Mobile Comput.,yes,yes,no,yes,yes,yes,
+T2,b92_3,Quantum graph neural network for resource management in wireless communication,Proc. Int. Conf. Artificial Intelligence in Information and Communication (ICAIIC),yes,yes,no,yes,yes,yes,
+T2,b93,Modular quantum machine learning for channel estimation in STAR-RIS assisted communication systems,"Proc. IEEE 34th Annu. Int. Symp. Personal, Indoor Mobile Radio Commun. (PIMRC)",yes,yes,no,yes,yes,yes,
+T2,b2026_qml_ris_noma,Channel estimation for reconfigurable intelligent surface-aided 6G NOMA systems: A quantum machine learning approach,IEEE Trans. Netw. Sci. Eng.,yes,yes,no,yes,yes,yes,
+T2,b94,Designing quantum gradient descent algorithm for MIMO NOMA rate maximization with STAR-RIS,IEEE Wireless Commun. Lett.,yes,no,no,no,yes,yes,
+T2,b95,Quantum machine learning for performance optimization of RIS-assisted communications: Framework design and application to energy efficiency maximization of systems with RSMA,IEEE Trans. Wireless Commun.,yes,yes,no,yes,yes,yes,
+T2,b96,Quantum Federated Reinforcement Learning Based Joint Mode Selection and Resource Allocation for STAR-RIS aided VRCS,IEEE Internet Things J.,yes,no,no,no,yes,yes,
+T2,b100,Layerwise quantum deep reinforcement learning for joint optimization of UAV trajectory and resource allocation,IEEE Internet Things J.,no,yes,yes,yes,yes,yes,
+T2,b101,UAV coverage path planning with quantum-based recurrent deep deterministic policy gradient,IEEE Trans. Veh. Technol.,no,yes,yes,yes,yes,yes,
