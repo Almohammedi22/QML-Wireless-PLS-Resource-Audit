@@ -126,9 +126,11 @@ Xplore allows 25 terms per clause and counts each word of a phrase. Not counting
 
 Screening starts only when every run passes its check. The earlier exports named here are kept in the repository.
 
+For every run, the query text shown in the database's search history must match Section 2 exactly, apart from line breaks. It is copied into the search log.
+
 | Run | Must contain | Tier-2 recall |
 |---|---|---|
-| Scopus Tier 2 | all 278 records of the 27 September Scopus run (export 00:54 UTC), and DOI 10.1049/qtc2.12120 | 20 of 25 |
+| Scopus Tier 2 | DOI 10.1049/qtc2.12120 | 20 of 25 |
 | Xplore Tier 2 | all 445 records of the 27 September Xplore run (export 20:36 local), and the ICAIIC 2025 terahertz beamforming study | 14 of 25 expected |
 | Scopus Tier 1 | all 32 records of the 21 September Scopus search | not applicable |
 | Xplore Tier 1 | all 26 records of the 21 September Xplore search | not applicable |
@@ -143,7 +145,7 @@ If a check fails, stop and find the reason before screening. A failed superset c
 
 ## 5. Search log
 
-One row per run: database, tier, string version (commit hash of this file), date and time, number of results, export file name, check result.
+One row per run: database, tier, string version (commit hash of this file), query text copied from the database's search history, date and time, number of results, export file name, check result.
 
 ## 6. Deduplication
 
@@ -217,3 +219,5 @@ D1, arXiv. Decided 28 September 2026: searched as a supplementary source for bot
 - 27 September 2026. Scopus run at 00:54 UTC: 278 records, all 203 of test 1 included, 20 of 25 transferable studies retrieved, all five misses confirmed absent from Scopus. The export had no abstracts, and it did not contain DOI 10.1049/qtc2.12120, whose title alone matches all three groups of the documented string. The final session therefore repeats the search with the string exactly as printed here.
 - 28 September 2026. Decision D1: arXiv is not searched. The database searches are described as covering indexed literature only.
 - 28 September 2026. Decision D1 changed: arXiv is searched as a supplementary source for Tier 1 and Tier 2, since preprints are eligible in both tiers. Scopus and IEEE Xplore remain the primary databases.
+- 28 September 2026. The Scopus Tier-2 check no longer compares against the 27 September run exported at 00:54 UTC. That run did not use the documented string: it lacked DOI 10.1049/qtc2.12120, whose title matches all three groups. Every run is now checked by comparing the query text in the database's search history with Section 2.
+- 28 September 2026. The first final Scopus runs of Tier 1 and Tier 2 added six terms that are not in this protocol ("quantum transformer*", "quantum gradient descent", mmWave, NOMA, RIS and "beam prediction"). Both runs were discarded.
