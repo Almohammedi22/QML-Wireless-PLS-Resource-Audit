@@ -1,0 +1,367 @@
+{
+  "model": "oracle beamformer, idealized product-state readout; G=1",
+  "snr_db": 10,
+  "trials": 2000,
+  "reference_seed": 1234,
+  "additional_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "coherence_times_ms": {
+    "3.5GHz_3kmh": 43.478471908799996,
+    "3.5GHz_60kmh": 2.17392359544,
+    "28GHz_3kmh": 5.4348089885999995,
+    "28GHz_60kmh": 0.27174044943
+  },
+  "results": [
+    {
+      "nt": 4,
+      "mapping": "direct",
+      "shots_5pct": 449.9614980561078,
+      "shots_1pct": 2553.786582266939,
+      "rounded_shots_5pct": 450,
+      "gaussian_loss_mean": 0.049998461702915636,
+      "gaussian_loss_95th_percentile": 0.15641814422489025,
+      "gaussian_fraction_loss_above_10pct": 0.127,
+      "exact_variance_threshold": 405.47807564137116,
+      "correlated_exact_variance_thresholds": {
+        "0.25": 385.3517994823709,
+        "0.5": 368.86856233559666
+      },
+      "binomial_at_unrounded_budget": {
+        "shots": 450,
+        "repetitions": 20,
+        "mean_loss": 0.04553227063692267,
+        "approx_95pct_mean_interval": [
+          0.04450499570062469,
+          0.046559545573220645
+        ],
+        "loss_95th_percentile": 0.14044791755599495,
+        "fraction_loss_above_10pct": 0.11
+      },
+      "binomial_at_rounded_budget": {
+        "shots": 450,
+        "repetitions": 20,
+        "mean_loss": 0.04553227063692267,
+        "approx_95pct_mean_interval": [
+          0.04450499570062469,
+          0.046559545573220645
+        ],
+        "loss_95th_percentile": 0.14044791755599495,
+        "fraction_loss_above_10pct": 0.11
+      },
+      "other_seed_thresholds": [
+        418.00868258825216,
+        434.8925400197223,
+        447.8362372619454,
+        454.1026990786561,
+        452.84799957121726,
+        457.0157663845668,
+        456.53831741950285,
+        435.7222597528699,
+        436.6609428176878,
+        467.1296224889909
+      ],
+      "measurement_times_ms": {
+        "10": 4.5,
+        "100": 45.0,
+        "1000": 450.0
+      },
+      "other_seed_min": 418.00868258825216,
+      "other_seed_max": 467.1296224889909
+    },
+    {
+      "nt": 4,
+      "mapping": "rescaled",
+      "shots_5pct": 231.4819924901578,
+      "shots_1pct": 1322.3821066857693,
+      "rounded_shots_5pct": 230,
+      "gaussian_loss_mean": 0.04999900632349154,
+      "gaussian_loss_95th_percentile": 0.1569795432834589,
+      "gaussian_fraction_loss_above_10pct": 0.128,
+      "exact_variance_threshold": 186.14676763483234,
+      "correlated_exact_variance_thresholds": {
+        "0.25": 175.44485021070506,
+        "0.5": 167.6823318070351
+      },
+      "binomial_at_unrounded_budget": {
+        "shots": 232,
+        "repetitions": 20,
+        "mean_loss": 0.04072136312295518,
+        "approx_95pct_mean_interval": [
+          0.039592025437460425,
+          0.04185070080844993
+        ],
+        "loss_95th_percentile": 0.13289498927003665,
+        "fraction_loss_above_10pct": 0.09305
+      },
+      "binomial_at_rounded_budget": {
+        "shots": 230,
+        "repetitions": 20,
+        "mean_loss": 0.04170770700757443,
+        "approx_95pct_mean_interval": [
+          0.04055488267021929,
+          0.04286053134492957
+        ],
+        "loss_95th_percentile": 0.13464118600108851,
+        "fraction_loss_above_10pct": 0.0977
+      },
+      "other_seed_thresholds": [
+        215.97145906217713,
+        225.539126088311,
+        230.6295964394067,
+        233.5693394465616,
+        233.82798349678998,
+        236.3139610884762,
+        233.42577194860507,
+        225.85830240262482,
+        226.26138598859245,
+        243.661781152379
+      ],
+      "measurement_times_ms": {
+        "10": 2.3,
+        "100": 23.0,
+        "1000": 230.0
+      },
+      "other_seed_min": 215.97145906217713,
+      "other_seed_max": 243.661781152379
+    },
+    {
+      "nt": 16,
+      "mapping": "direct",
+      "shots_5pct": 1117.7670105850466,
+      "shots_1pct": 6648.670842675655,
+      "rounded_shots_5pct": 1100,
+      "gaussian_loss_mean": 0.04999808837332753,
+      "gaussian_loss_95th_percentile": 0.12732592399078435,
+      "gaussian_fraction_loss_above_10pct": 0.111,
+      "exact_variance_threshold": 1083.6599822334724,
+      "correlated_exact_variance_thresholds": {
+        "0.25": 1047.2400292172656,
+        "0.5": 1000.8435874655011
+      },
+      "binomial_at_unrounded_budget": {
+        "shots": 1118,
+        "repetitions": 20,
+        "mean_loss": 0.04917091585855714,
+        "approx_95pct_mean_interval": [
+          0.048620273755197556,
+          0.04972155796191672
+        ],
+        "loss_95th_percentile": 0.12793341663058205,
+        "fraction_loss_above_10pct": 0.110475
+      },
+      "binomial_at_rounded_budget": {
+        "shots": 1100,
+        "repetitions": 20,
+        "mean_loss": 0.05013046912877446,
+        "approx_95pct_mean_interval": [
+          0.0495555884462805,
+          0.05070534981126842
+        ],
+        "loss_95th_percentile": 0.12949780340755473,
+        "fraction_loss_above_10pct": 0.117
+      },
+      "other_seed_thresholds": [
+        1129.442366981531,
+        1162.8434213157002,
+        1099.2964035290377,
+        1136.0589001051555,
+        1119.3488414668443,
+        1141.8011724400217,
+        1142.433186833966,
+        1121.070761974095,
+        1131.5276247172048,
+        1097.4729615912258
+      ],
+      "measurement_times_ms": {
+        "10": 11.0,
+        "100": 110.0,
+        "1000": 1100.0
+      },
+      "other_seed_min": 1097.4729615912258,
+      "other_seed_max": 1162.8434213157002
+    },
+    {
+      "nt": 16,
+      "mapping": "rescaled",
+      "shots_5pct": 229.90752814400767,
+      "shots_1pct": 1374.1883571510416,
+      "rounded_shots_5pct": 230,
+      "gaussian_loss_mean": 0.049998117769975835,
+      "gaussian_loss_95th_percentile": 0.12998889230395475,
+      "gaussian_fraction_loss_above_10pct": 0.1195,
+      "exact_variance_threshold": 195.44784387838357,
+      "correlated_exact_variance_thresholds": {
+        "0.25": 189.20463128086843,
+        "0.5": 180.9556609947958
+      },
+      "binomial_at_unrounded_budget": {
+        "shots": 230,
+        "repetitions": 20,
+        "mean_loss": 0.044229255544045,
+        "approx_95pct_mean_interval": [
+          0.04349899193364442,
+          0.04495951915444558
+        ],
+        "loss_95th_percentile": 0.12269107846007747,
+        "fraction_loss_above_10pct": 0.0906
+      },
+      "binomial_at_rounded_budget": {
+        "shots": 230,
+        "repetitions": 20,
+        "mean_loss": 0.044229255544045,
+        "approx_95pct_mean_interval": [
+          0.04349899193364442,
+          0.04495951915444558
+        ],
+        "loss_95th_percentile": 0.12269107846007747,
+        "fraction_loss_above_10pct": 0.0906
+      },
+      "other_seed_thresholds": [
+        240.84662786886327,
+        242.18309742425214,
+        225.23424907426866,
+        237.08530290229083,
+        232.00920637531974,
+        237.53763154938238,
+        241.1281559238201,
+        234.74992854810628,
+        238.400900684011,
+        228.63880041202677
+      ],
+      "measurement_times_ms": {
+        "10": 2.3,
+        "100": 23.0,
+        "1000": 230.0
+      },
+      "other_seed_min": 225.23424907426866,
+      "other_seed_max": 242.18309742425214
+    },
+    {
+      "nt": 64,
+      "mapping": "direct",
+      "shots_5pct": 3234.4748007376775,
+      "shots_1pct": 19992.937918490923,
+      "rounded_shots_5pct": 3200,
+      "gaussian_loss_mean": 0.0499995058849872,
+      "gaussian_loss_95th_percentile": 0.1208169514053058,
+      "gaussian_fraction_loss_above_10pct": 0.1045,
+      "exact_variance_threshold": 3209.908218693807,
+      "correlated_exact_variance_thresholds": {
+        "0.25": 3173.6028814958386,
+        "0.5": 3023.319246449176
+      },
+      "binomial_at_unrounded_budget": {
+        "shots": 3235,
+        "repetitions": 20,
+        "mean_loss": 0.05100773794126396,
+        "approx_95pct_mean_interval": [
+          0.05058696142847985,
+          0.05142851445404807
+        ],
+        "loss_95th_percentile": 0.12573400548003838,
+        "fraction_loss_above_10pct": 0.113975
+      },
+      "binomial_at_rounded_budget": {
+        "shots": 3200,
+        "repetitions": 20,
+        "mean_loss": 0.05113453206658841,
+        "approx_95pct_mean_interval": [
+          0.050724878409892725,
+          0.0515441857232841
+        ],
+        "loss_95th_percentile": 0.1250352017063733,
+        "fraction_loss_above_10pct": 0.114025
+      },
+      "other_seed_thresholds": [
+        3306.257697131303,
+        3378.802581958284,
+        3314.8068026757837,
+        3385.8733984998285,
+        3298.7446117969594,
+        3422.291641733876,
+        3308.4946151430377,
+        3402.987482235949,
+        3264.845316420019,
+        3380.8806996773833
+      ],
+      "measurement_times_ms": {
+        "10": 32.0,
+        "100": 320.0,
+        "1000": 3200.0
+      },
+      "other_seed_min": 3264.845316420019,
+      "other_seed_max": 3422.291641733876
+    },
+    {
+      "nt": 64,
+      "mapping": "rescaled",
+      "shots_5pct": 232.98127326882494,
+      "shots_1pct": 1443.5614380863717,
+      "rounded_shots_5pct": 230,
+      "gaussian_loss_mean": 0.04999947479012441,
+      "gaussian_loss_95th_percentile": 0.12155860729017538,
+      "gaussian_fraction_loss_above_10pct": 0.107,
+      "exact_variance_threshold": 207.8038818186212,
+      "correlated_exact_variance_thresholds": {
+        "0.25": 204.94886040438718,
+        "0.5": 195.1596428427473
+      },
+      "binomial_at_unrounded_budget": {
+        "shots": 233,
+        "repetitions": 20,
+        "mean_loss": 0.04696110545987,
+        "approx_95pct_mean_interval": [
+          0.04638500368272238,
+          0.04753720723701762
+        ],
+        "loss_95th_percentile": 0.1194591561648118,
+        "fraction_loss_above_10pct": 0.09255
+      },
+      "binomial_at_rounded_budget": {
+        "shots": 230,
+        "repetitions": 20,
+        "mean_loss": 0.04750392753951628,
+        "approx_95pct_mean_interval": [
+          0.046949206602415874,
+          0.048058648476616686
+        ],
+        "loss_95th_percentile": 0.12139087455372351,
+        "fraction_loss_above_10pct": 0.09755
+      },
+      "other_seed_thresholds": [
+        242.95865749149743,
+        248.65624169410108,
+        241.7962462736808,
+        247.0105223655251,
+        243.85662116718706,
+        247.69491090436748,
+        241.64762196290846,
+        250.57470361745666,
+        241.6624802821044,
+        246.93459601777613
+      ],
+      "measurement_times_ms": {
+        "10": 2.3,
+        "100": 23.0,
+        "1000": 230.0
+      },
+      "other_seed_min": 241.64762196290846,
+      "other_seed_max": 250.57470361745666
+    }
+  ]
+}

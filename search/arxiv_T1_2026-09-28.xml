@@ -1,0 +1,644 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BLkut70X/FKhPZXll28s8M5LY2M</id>
+  <title>arXiv Query: search_query=( ( (ti:"variational quantum" OR abs:"variational quantum") OR (ti:"parameterized quantum circuit" OR abs:"parameterized quantum circuit") OR (ti:"quantum kernel" OR abs:"quantum kernel") OR (ti:"quantum support vector" OR abs:"quantum support vector") OR (ti:"hybrid quantum-classical" OR abs:"hybrid quantum-classical") OR (ti:"quantum deep unfolding" OR abs:"quantum deep unfolding") ) OR ( (ti:quantum OR abs:quantum) AND ( (ti:learning OR abs:learning) OR (ti:neural OR abs:neural) OR (ti:reinforcement OR abs:reinforcement) OR (ti:policy OR abs:policy) OR (ti:adversarial OR abs:adversarial) OR (ti:GAN OR abs:GAN) OR (ti:transformer OR abs:transformer) ) ) ) AND ( (ti:wireless OR abs:wireless) OR (ti:radio OR abs:radio) OR (ti:"physical layer" OR abs:"physical layer") OR (ti:"physical-layer" OR abs:"physical-layer") OR (ti:satellite OR abs:satellite) OR (ti:UAV OR abs:UAV) OR (ti:MIMO OR abs:MIMO) OR (ti:beamforming OR abs:beamforming) OR (ti:NOMA OR abs:NOMA) OR (ti:RIS OR abs:RIS) OR (ti:mmWave OR abs:mmWave) ) AND ( (ti:"physical layer security" OR abs:"physical layer security") OR (ti:"physical-layer security" OR abs:"physical-layer security") OR (ti:secrecy OR abs:secrecy) OR (ti:eavesdropping OR abs:eavesdropping) OR (ti:eavesdropper OR abs:eavesdropper) OR (ti:wiretap OR abs:wiretap) OR (ti:"physical layer authentication" OR abs:"physical layer authentication") OR (ti:"physical-layer authentication" OR abs:"physical-layer authentication") OR (ti:"RF fingerprinting" OR abs:"RF fingerprinting") OR (ti:"RF fingerprint" OR abs:"RF fingerprint") OR (ti:"radio frequency fingerprint" OR abs:"radio frequency fingerprint") OR (ti:"emitter identification" OR abs:"emitter identification") OR (ti:spoofing OR abs:spoofing) OR (ti:jamming OR abs:jamming) OR (ti:jammer OR abs:jammer) OR (ti:"covert communication" OR abs:"covert communication") OR (ti:"key generation" OR abs:"key generation") )&amp;id_list=&amp;start=0&amp;max_results=2000</title>
+  <updated>2026-09-28T18:48:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(((ti:%22variational+quantum%22+OR+abs:%22variational+quantum%22)+OR+((ti:%22parameterized+quantum+circuit%22+OR+abs:%22parameterized+quantum+circuit%22)+OR+((ti:%22quantum+kernel%22+OR+abs:%22quantum+kernel%22)+OR+((ti:%22quantum+support+vector%22+OR+abs:%22quantum+support+vector%22)+OR+((ti:%22hybrid+quantum-classical%22+OR+abs:%22hybrid+quantum-classical%22)+OR+(ti:%22quantum+deep+unfolding%22+OR+abs:%22quantum+deep+unfolding%22))))))+OR+((ti:quantum+OR+abs:quantum)+AND+((ti:learning+OR+abs:learning)+OR+((ti:neural+OR+abs:neural)+OR+((ti:reinforcement+OR+abs:reinforcement)+OR+((ti:policy+OR+abs:policy)+OR+((ti:adversarial+OR+abs:adversarial)+OR+((ti:GAN+OR+abs:GAN)+OR+(ti:transformer+OR+abs:transformer)))))))))+AND+(((ti:wireless+OR+abs:wireless)+OR+((ti:radio+OR+abs:radio)+OR+((ti:%22physical+layer%22+OR+abs:%22physical+layer%22)+OR+((ti:%22physical-layer%22+OR+abs:%22physical-layer%22)+OR+((ti:satellite+OR+abs:satellite)+OR+((ti:UAV+OR+abs:UAV)+OR+((ti:MIMO+OR+abs:MIMO)+OR+((ti:beamforming+OR+abs:beamforming)+OR+((ti:NOMA+OR+abs:NOMA)+OR+((ti:RIS+OR+abs:RIS)+OR+(ti:mmWave+OR+abs:mmWave)))))))))))+AND+((ti:%22physical+layer+security%22+OR+abs:%22physical+layer+security%22)+OR+((ti:%22physical-layer+security%22+OR+abs:%22physical-layer+security%22)+OR+((ti:secrecy+OR+abs:secrecy)+OR+((ti:eavesdropping+OR+abs:eavesdropping)+OR+((ti:eavesdropper+OR+abs:eavesdropper)+OR+((ti:wiretap+OR+abs:wiretap)+OR+((ti:%22physical+layer+authentication%22+OR+abs:%22physical+layer+authentication%22)+OR+((ti:%22physical-layer+authentication%22+OR+abs:%22physical-layer+authentication%22)+OR+((ti:%22RF+fingerprinting%22+OR+abs:%22RF+fingerprinting%22)+OR+((ti:%22RF+fingerprint%22+OR+abs:%22RF+fingerprint%22)+OR+((ti:%22radio+frequency+fingerprint%22+OR+abs:%22radio+frequency+fingerprint%22)+OR+((ti:%22emitter+identification%22+OR+abs:%22emitter+identification%22)+OR+((ti:spoofing+OR+abs:spoofing)+OR+((ti:jamming+OR+abs:jamming)+OR+((ti:jammer+OR+abs:jammer)+OR+((ti:%22covert+communication%22+OR+abs:%22covert+communication%22)+OR+(ti:%22key+generation%22+OR+abs:%22key+generation%22))))))))))))))))))&amp;start=0&amp;max_results=2000&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>2000</opensearch:itemsPerPage>
+  <opensearch:totalResults>25</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9905009v1</id>
+    <title>Practical quantum cryptography for secure free-space communications</title>
+    <updated>1999-05-04T17:43:37Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9905009v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9905009v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Quantum cryptography is an emerging technology in which two parties may simultaneously generate shared, secret cryptographic key material using the transmission of quantum states of light. The security of these transmissions is based on the inviolability of the laws of quantum mechanics and information-theoretically secure post-processing methods. An adversary can neither successfully tap the quantum transmissions, nor evade detection, owing to Heisenberg's uncertainty principle. In this paper we describe the theory of quantum cryptography, and the most recent results from our experimental free-space system with which we have demonstrated for the first time the feasibility of quantum key generation over a point-to-point outdoor atmospheric path in daylight. We achieved a transmission distance of 0.5 km, which was limited only by the length of the test range. Our results provide strong evidence that cryptographic key material could be generated on demand between a ground station and a satellite (or between two satellites), allowing a satellite to be securely re-keyed on orbit. We present a feasibility analysis of surface-to-satellite quantum key generation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-05-04T17:43:37Z</published>
+    <arxiv:comment>12 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Richard J. Hughes</name>
+    </author>
+    <author>
+      <name>William T. Buttler</name>
+    </author>
+    <author>
+      <name>Paul G. Kwiat</name>
+    </author>
+    <author>
+      <name>Steve K. Lamoreaux</name>
+    </author>
+    <author>
+      <name>George L. Morgan</name>
+    </author>
+    <author>
+      <name>Jane E. Nordholt</name>
+    </author>
+    <author>
+      <name>C. G. Peterson</name>
+    </author>
+    <arxiv:doi>10.1117/12.346170</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1117/12.346170" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.05022v1</id>
+    <title>Quantum Geo-Encryption</title>
+    <updated>2016-04-18T07:54:49Z</updated>
+    <link href="https://arxiv.org/abs/1604.05022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.05022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we introduce the concept of quantum geo-encryption - a protocol that invokes direct quantum encryption of messages coupled to quantum location monitoring of the intended receiver. By obfuscating the quantum information required by both the decrypting process and the location verification process, a communication channel is created in which the encrypted data can only be decrypted at a specific geographic locale. Classical wireless communications can be invoked to unlock the quantum encryption process thereby allowing for any deployment scenario regardless of the channel conditions. Quantum geo-encryption can also be used to realize quantum-computing instructions that can only be implemented at a specific location, and allow for a specified geographical data-route through a distributed network. Here we consider the operational aspects of quantum geo-encryption in generic Rician channels, demonstrating that the likelihood of a successful spoofing attack approaches zero as the adversary moves away from the allowed decrypting location. The work introduced here resolves a long-standing quest to directly deliver information which can only be decrypted at a given location free of assumptions on the physical security of a receiver.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-18T07:54:49Z</published>
+    <arxiv:comment>3 Figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Robert Malaney</name>
+    </author>
+    <arxiv:doi>10.1109/GLOCOM.2016.7842191</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/GLOCOM.2016.7842191" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.05445v1</id>
+    <title>CV-MDI Quantum Key Distribution via Satellite</title>
+    <updated>2016-05-18T05:44:30Z</updated>
+    <link href="https://arxiv.org/abs/1605.05445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.05445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we analyze a measurement-device-independent (MDI) protocol to establish continuous-variable (CV) quantum key distribution (QKD) between two ground stations. We assume communication occurs between the ground stations via satellite over two independent atmospheric-fading channels dominated by turbulence-induced beam wander. In this MDI protocol the measurement device is the satellite itself, and the security of the protocol is analyzed through an equivalent entanglement-based swapping scheme. We quantify the positive impact the fading channels can have on the final quantum key rates, demonstrating how the protocol is able to generate a positive key rate even over high-loss atmospheric channels. This is somewhat counter-intuitive given that the same outcome is only possible in the low-loss regime for a measurement device centrally positioned in a fiber-optic channel. Our results show that useful space-based quantum key generation rates between two ground stations are possible even when the relay satellite is held by an adversary. The cost in key rate incurred by altering the status of the satellite from trustworthy to untrustworthy is presented.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-18T05:44:30Z</published>
+    <arxiv:comment>7 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Inf. Comput. 17 (5&amp;6), pp. 361-379 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Nedasadat Hosseinidehaj</name>
+    </author>
+    <author>
+      <name>Robert Malaney</name>
+    </author>
+    <arxiv:doi>10.26421/QIC17.5-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.26421/QIC17.5-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07533v1</id>
+    <title>A Note on the Information-Theoretic-(in)Security of Fading Generated Secret Keys</title>
+    <updated>2017-05-22T01:44:41Z</updated>
+    <link href="https://arxiv.org/abs/1705.07533v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.07533v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we explore the security of secret keys generated via the electromagnetic reciprocity of the wireless fading channel. Identifying a new sophisticated colluding attack, we explore the information-theoretic-security for such keys in the presence of an all-powerful adversary constrained only by the laws of quantum mechanics. Specifically, we calculate the reduction in the conditional mutual information between transmitter and receiver that can occur when an adversary with unlimited computational and communication resources places directional antenna interceptors at chosen locations. Such locations, in principal, can be arbitrarily far from the intended receiver yet still influence the secret key rate.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-22T01:44:41Z</published>
+    <arxiv:comment>4 pages, 2 figures. This work has been submitted to the IEEE for possible publication</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>Published in: 2018 IEEE Global Communications Conference (GLOBECOM)</arxiv:journal_ref>
+    <author>
+      <name>Robert Malaney</name>
+    </author>
+    <arxiv:doi>10.1109/GLOCOM.2018.8647137</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/GLOCOM.2018.8647137" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.00666v1</id>
+    <title>Towards satellite-based quantum-secure time transfer</title>
+    <updated>2020-06-01T01:50:18Z</updated>
+    <link href="https://arxiv.org/abs/2006.00666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.00666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-precision time synchronization for remote clocks plays an important role in fundamental science and real-life applications. However, the current time synchronization techniques have been shown to be vulnerable to sophisticated adversaries. There is a compelling need for fundamentally new methods to distribute high-precision time information securely. Here we propose a satellite-based quantum-secure time transfer (QSTT) scheme based on two-way quantum key distribution (QKD) in free-space, and experimentally verify the key technologies of the scheme via the Micius quantum satellite. In QSTT, a quantum signal (e.g., single photon) is used as the carrier for both the time transfer and the secret-key generation, offering quantum-enhanced security for transferring time signal and time information. We perform a satellite-to-ground time synchronization using single-photon-level signals and achieve a quantum bit error rate of less than 1%, a time data rate of 9 kHz and a time-transfer precision of 30 ps. These results offer possibilities towards an enhanced infrastructure of time-transfer network, whose security stems from quantum physics.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-01T01:50:18Z</published>
+    <arxiv:comment>Nature Physics in press</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature Physics 16, 848 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Hui Dai</name>
+    </author>
+    <author>
+      <name>Qi Shen</name>
+    </author>
+    <author>
+      <name>Chao-Ze Wang</name>
+    </author>
+    <author>
+      <name>Shuang-Lin Li</name>
+    </author>
+    <author>
+      <name>Wei-Yue Liu</name>
+    </author>
+    <author>
+      <name>Wen-Qi Cai</name>
+    </author>
+    <author>
+      <name>Sheng-Kai Liao</name>
+    </author>
+    <author>
+      <name>Ji-Gang Ren</name>
+    </author>
+    <author>
+      <name>Juan Yin</name>
+    </author>
+    <author>
+      <name>Yu-Ao Chen</name>
+    </author>
+    <author>
+      <name>Qiang Zhang</name>
+    </author>
+    <author>
+      <name>Feihu Xu</name>
+    </author>
+    <author>
+      <name>Cheng-Zhi Peng</name>
+    </author>
+    <author>
+      <name>Jian-Wei Pan</name>
+    </author>
+    <arxiv:doi>10.1038/s41567-020-0892-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41567-020-0892-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.11324v4</id>
+    <title>Satellite-Based Communications Security: A Survey of Threats, Solutions, and Research Challenges</title>
+    <updated>2022-07-29T09:13:47Z</updated>
+    <link href="https://arxiv.org/abs/2112.11324v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.11324v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Satellite-based Communication systems are gaining renewed momentum in Industry and Academia, thanks to innovative services introduced by leading tech companies and the promising impact they can deliver towards the global connectivity objective tackled by early 6G initiatives. On the one hand, the emergence of new manufacturing processes and radio technologies promises to reduce service costs while guaranteeing outstanding communication latency, available bandwidth, flexibility, and coverage range. On the other hand, cybersecurity techniques and solutions applied in SATCOM links should be updated to reflect the substantial advancements in attacker capabilities characterizing the last two decades. However, business urgency and opportunities are leading operators towards challenging system trade-offs, resulting in an increased attack surface and a general relaxation of the available security services. In this paper, we tackle the cited problems and present a comprehensive survey on the link-layer security threats, solutions, and challenges faced when deploying and operating SATCOM systems.Specifically, we classify the literature on security for SATCOM systems into two main branches, i.e., physical-layer security and cryptography schemes.Then, we further identify specific research domains for each of the identified branches, focusing on dedicated security issues, including, e.g., physical-layer confidentiality, anti-jamming schemes, anti-spoofing strategies, and quantum-based key distribution schemes. For each of the above domains, we highlight the most essential techniques, peculiarities, advantages, disadvantages, lessons learned, and future directions.Finally, we also identify emerging research topics whose additional investigation by Academia and Industry could further attract researchers and investors, ultimately unleashing the full potential behind ubiquitous satellite communications.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-21T16:15:15Z</published>
+    <arxiv:comment>72 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Pietro Tedeschi</name>
+    </author>
+    <author>
+      <name>Savio Sciancalepore</name>
+    </author>
+    <author>
+      <name>Roberto Di Pietro</name>
+    </author>
+    <arxiv:doi>10.1016/j.comnet.2022.109246</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.comnet.2022.109246" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01453v1</id>
+    <title>Information-Theoretic Secure Key Sharing for Wide-Area Mobile Applications</title>
+    <updated>2023-01-04T05:34:59Z</updated>
+    <link href="https://arxiv.org/abs/2301.01453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid growth of handheld devices in the internet of things (IoT) networks, mobile applications have become ubiquitous in everyday life. As technology is developed, so do also the risks and threats associated with it, especially in the forthcoming quantum era. Existing IoT networks, however, lack a quantum-resistant secret key sharing scheme to meet confidential message transmission demands in wide-area mobile applications. To address this issue, this article proposes a new scheme, channel reciprocity (CR) based quantum key distribution (QKD) CR-QKD, which accomplishes the goal of secret key sharing by combining emerging techniques of QKD and CR-based key generation (CRKG). Exploiting laws of quantum physics and properties of wireless channels, the proposed scheme is able to ensure the secrecy of the key, even against computationally unbounded adversaries. The basic mechanism is elaborated for a single-user case and it is extended into a multi-user case by redesigning a multi-user edge forwarding strategy. In addition, to make CR-QKD more practical, some enhancement strategies are studied to reduce the time delay and to improve the secret key generation rate in a secure manner. A prototype of CR-QKD is demonstrated in a metropolitan area network, where secret keys are shared between two remote IoT devices that are roughly fifteen kilometers apart from each other. The experimental results have verified that CR-QKD allows a secret key rate of 424 bits per second with a retransmission rate of 2.1%.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-04T05:34:59Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Guyue Li</name>
+    </author>
+    <author>
+      <name>Hongyi Luo</name>
+    </author>
+    <author>
+      <name>Jiabao Yu</name>
+    </author>
+    <author>
+      <name>Aiqun Hu</name>
+    </author>
+    <author>
+      <name>Jiangzhou Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.06113v1</id>
+    <title>Quantum Encryption in Phase Space for Coherent Optical Communications</title>
+    <updated>2023-01-15T15:08:53Z</updated>
+    <link href="https://arxiv.org/abs/2301.06113v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.06113v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical layer attacks on communication networks are one of the weakest reinforced areas of the network, allowing attackers to overcome security when proper safeguards are not put into place. Here, we present our solution or Quantum Encryption in Phase Space (QEPS), a physical layer encryption method to secure data over the optical fiber, based on our novel round-trip Coherent-based Two-Field Quantum Key Distribution (CTF-QKD) scheme. We perform a theoretical study through simulation and provide an experimental demonstration. The same encryption is used for QEPS as CTF-QKD but achieved through a pre-shared key and one-directional transmission design. QEPS is uniquely different from traditional technology where encryption is performed at the optical domain with coherent states by applying a quantum phase-shifting operator. The pre-shared secret is used to seed a deterministic random number generator and control the phase modulator at the transmitter for encryption and at the receiver for decryption. Using commercially available simulation software, we study two preventative measures for different modulation formats which will prevent an eavesdropper from obtaining any data. QEPS demonstrates that it is secure against tapping attacks when attackers have no information of the phase modulator and pre-shared key. Finally, an experiment with commercial components demonstrates QEPS system integrability.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-15T15:08:53Z</published>
+    <arxiv:comment>10 page, 9 figures, to be submitted to a journal</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Adrian Chan</name>
+    </author>
+    <author>
+      <name>Mostafa Khalil</name>
+    </author>
+    <author>
+      <name>Kh Arif Shahriar</name>
+    </author>
+    <author>
+      <name>David V. Plant</name>
+    </author>
+    <author>
+      <name>Lawrence R. Chen</name>
+    </author>
+    <author>
+      <name>Randy Kuang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.13738v1</id>
+    <title>Deep-Learning-Based Radio-Frequency Side-Channel Attack on Quantum Key Distribution</title>
+    <updated>2023-10-20T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2310.13738v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.13738v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum key distribution (QKD) protocols are proven secure based on fundamental physical laws, however, the proofs consider a well-defined setting and encoding of the sent quantum signals only. Side channels, where the encoded quantum state is correlated with properties of other degrees of freedom of the quantum channel, allow an eavesdropper to obtain information unnoticeably as demonstrated in a number of hacking attacks on the quantum channel. Yet, also classical radiation emitted by the devices may be correlated, leaking information on the potential key, especially when combined with novel data analysis methods.
+  We here demonstrate a side-channel attack using a deep convolutional neural network to analyze the recorded classical, radio-frequency electromagnetic emissions. Even at a distance of a few centimeters from the electronics of a QKD sender employing frequently used electronic components we are able to recover virtually all information about the secret key. Yet, as shown here, countermeasures can enable a significant reduction of both the emissions and the amount of secret key information leaked to the attacker. Our analysis methods are independent of the actual device and thus provide a starting point for assessing the presence of classical side channels in QKD devices.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-20T18:00:02Z</published>
+    <arxiv:comment>14 pages, 10 figures. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Adomas Baliuka</name>
+    </author>
+    <author>
+      <name>Markus Stöcker</name>
+    </author>
+    <author>
+      <name>Michael Auer</name>
+    </author>
+    <author>
+      <name>Peter Freiwang</name>
+    </author>
+    <author>
+      <name>Harald Weinfurter</name>
+    </author>
+    <author>
+      <name>Lukas Knips</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.20.054040</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.20.054040" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.10342v1</id>
+    <title>Cooperative Jamming for Physical Layer Security Enhancement Using Deep Reinforcement Learning</title>
+    <updated>2024-03-15T14:30:25Z</updated>
+    <link href="https://arxiv.org/abs/2403.10342v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.10342v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wireless data communications are always facing the risk of eavesdropping and interception. Conventional protection solutions which are based on encryption may not always be practical as is the case for wireless IoT networks or may soon become ineffective against quantum computers. In this regard, Physical Layer Security (PLS) presents a promising approach to secure wireless communications through the exploitation of the physical properties of the wireless channel. Cooperative Friendly Jamming (CFJ) is among the PLS techniques that have received attention in recent years. However, finding an optimal transmit power allocation that results in the highest secrecy is a complex problem that becomes more difficult to address as the size of the wireless network increases. In this paper, we propose an optimization approach to achieve CFJ in large Wi-Fi networks by using a Reinforcement Learning Algorithm. Obtained results show that our optimization approach offers better secrecy results and becomes more effective as the network size and the density of Wi-Fi access points increase.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-15T14:30:25Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Sayed Amir Hoseini</name>
+    </author>
+    <author>
+      <name>Faycal Bouhafs</name>
+    </author>
+    <author>
+      <name>Neda Aboutorab</name>
+    </author>
+    <author>
+      <name>Parastoo Sadeghi</name>
+    </author>
+    <author>
+      <name>Frank den Hartog</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.16731v1</id>
+    <title>RIS-Assisted THz MIMO Wireless System in the Presence of Direct Link for CV-QKD with Limited Quantum Memory</title>
+    <updated>2024-10-22T06:30:25Z</updated>
+    <link href="https://arxiv.org/abs/2410.16731v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.16731v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A reconfigurable intelligent surface (RIS)-aided multiple-input multiple-output (MIMO) wireless communication system is considered in this paper wherein the transmitter, Alice modulates secret keys, by using a continuous variable quantum key distribution technique to be transmitted to the receiver, Bob, which employs homodyne detection for data decoding. The data is transmitted over two paths, namely a direct path between Alice and Bob and the wireless path between them via the RIS. Transmit and receive beamsplitters are employed in the system to transform the MIMO terahertz channels into parallel single-input single-output channels. Considering an eavesdropper, Eve, to attack all the three wireless channels in the system (i.e., the direct channel, the channel between Alice and RIS, and between the RIS and Bob) but having restricted quantum memory limiting it to store the ancilla modes from either of these three wireless channels, novel expressions for the secret key rate (SKR) of the system are derived. Numerical results are presented to demonstrate the dependency of the system's performance on various system parameters. It is observed that the RIS plays a key role in increasing the SKR of the system and the transmission distance, ensuring secure communications between Alice and Bob. The significance of employing RIS is observed specifically for the case when Eve measures the ancilla modes of the channel between the RIS and Bob. Furthermore, for all such measurement scenarios, optimal angles are obtained for the phase shifts of the RIS elements to maximize the SKR for various MIMO configurations and transmission distance between Alice and Bob.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-22T06:30:25Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Sushil Kumar</name>
+    </author>
+    <author>
+      <name>Soumya P. Dash</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.09474v3</id>
+    <title>Covert Entanglement Generation over Bosonic Channels</title>
+    <updated>2025-12-06T09:25:22Z</updated>
+    <link href="https://arxiv.org/abs/2506.09474v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.09474v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore covert entanglement generation over the lossy thermal-noise bosonic channel, which is a quantum-mechanical model of many practical settings, including optical, microwave, and radio-frequency (RF) channels. Covert communication ensures that an adversary is unable to detect the presence of transmissions, which are concealed in channel noise. We show that a square root law (SRL) for covert entanglement generation similar to that for classical communication: $L_{\rm EG}\sqrt{n}$ entangled bits (ebits) can be generated covertly and reliably over $n$ uses of a bosonic channel. We report a single-letter expression for optimal $L_{\rm EG}$ as well as an achievable method. We additionally analyze the performance of covert entanglement generation using single- and dual-rail photonic qubits, which may be more practical for physical implementation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-11T07:38:39Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Evan J. D. Anderson</name>
+    </author>
+    <author>
+      <name>Michael S. Bullock</name>
+    </author>
+    <author>
+      <name>Ohad Kimelfeld</name>
+    </author>
+    <author>
+      <name>Christopher K. Eyre</name>
+    </author>
+    <author>
+      <name>Filip Rozpędek</name>
+    </author>
+    <author>
+      <name>Uzi Pereg</name>
+    </author>
+    <author>
+      <name>Boulat A. Bash</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.18085v1</id>
+    <title>Quantum-Classical Hybrid Framework for Zero-Day Time-Push GNSS Spoofing Detection</title>
+    <updated>2025-08-25T14:46:22Z</updated>
+    <link href="https://arxiv.org/abs/2508.18085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.18085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Global Navigation Satellite Systems (GNSS) are critical for Positioning, Navigation, and Timing (PNT) applications. However, GNSS are highly vulnerable to spoofing attacks, where adversaries transmit counterfeit signals to mislead receivers. Such attacks can lead to severe consequences, including misdirected navigation, compromised data integrity, and operational disruptions. Most existing spoofing detection methods depend on supervised learning techniques and struggle to detect novel, evolved, and unseen attacks. To overcome this limitation, we develop a zero-day spoofing detection method using a Hybrid Quantum-Classical Autoencoder (HQC-AE), trained solely on authentic GNSS signals without exposure to spoofed data. By leveraging features extracted during the tracking stage, our method enables proactive detection before PNT solutions are computed. We focus on spoofing detection in static GNSS receivers, which are particularly susceptible to time-push spoofing attacks, where attackers manipulate timing information to induce incorrect time computations at the receiver. We evaluate our model against different unseen time-push spoofing attack scenarios: simplistic, intermediate, and sophisticated. Our analysis demonstrates that the HQC-AE consistently outperforms its classical counterpart, traditional supervised learning-based models, and existing unsupervised learning-based methods in detecting zero-day, unseen GNSS time-push spoofing attacks, achieving an average detection accuracy of 97.71% with an average false negative rate of 0.62% (when an attack occurs but is not detected). For sophisticated spoofing attacks, the HQC-AE attains an accuracy of 98.23% with a false negative rate of 1.85%. These findings highlight the effectiveness of our method in proactively detecting zero-day GNSS time-push spoofing attacks across various stationary GNSS receiver platforms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-25T14:46:22Z</published>
+    <arxiv:comment>This work has been submitted to the IEEE Internet of Things Journal for possible publication</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Abyad Enan</name>
+    </author>
+    <author>
+      <name>Mashrur Chowdhury</name>
+    </author>
+    <author>
+      <name>Sagar Dasgupta</name>
+    </author>
+    <author>
+      <name>Mizanur Rahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08171v1</id>
+    <title>RAPID Quantum Detection and Demodulation of Covert Communications: Breaking the Noise Limit with Solid-State Spin Sensors</title>
+    <updated>2025-09-09T22:12:28Z</updated>
+    <link href="https://arxiv.org/abs/2509.08171v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08171v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a comprehensive framework for the detection and demodulation of covert electromagnetic signals using solid-state spin sensors. Our approach, named RAPID, is a two-stage hybrid strategy that leverages nitrogen-vacancy (NV) centers to operate below the classical noise floor employing a robust adaptive policy via imitation and distillation. We first formulate the joint detection and estimation task as a unified stochastic optimal control problem, optimizing a composite Bayesian risk objective under realistic physical constraints. The RAPID algorithm solves this by first computing a robust, non-adaptive baseline protocol grounded in the quantum Fisher information matrix (QFIM), and then using this baseline to warm-start an online, adaptive policy learned via deep reinforcement learning (Soft Actor-Critic). This method dynamically optimizes control pulses, interrogation times, and measurement bases to maximize information gain while actively suppressing non-Markovian noise and decoherence. Numerical simulations demonstrate that the protocol achieves a significant sensitivity gain over static methods, maintains high estimation precision in correlated noise environments, and, when applied to sensor arrays, enables coherent quantum beamforming that achieves Heisenberg-like scaling in precision. This work establishes a theoretically rigorous and practically viable pathway for deploying quantum sensors in security-critical applications such as electronic warfare and covert surveillance.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-09T22:12:28Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Amirhossein Taherpour</name>
+    </author>
+    <author>
+      <name>Abbas Taherpour</name>
+    </author>
+    <author>
+      <name>Tamer Khattab</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.14838v1</id>
+    <title>Dynamic-Key-Aware Co-Simulation Framework for Next Generation of SCADA Systems Encrypted by Quantum-Key-Distribution Techniques</title>
+    <updated>2025-10-16T16:12:35Z</updated>
+    <link href="https://arxiv.org/abs/2510.14838v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.14838v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To address growing cybersecurity challenges in modern power dispatch systems, this paper proposes a multi-layer modeling and optimization framework for SCADA systems enhanced with quantum key distribution (QKD). While most existing applications of QKD in the power sector focus on building secure point-to-point communication tunnels, they rarely consider the system-level coupling between key dynamics and control scheduling. In contrast, our approach integrates quantum key generation, consumption, inventory prediction, and control latency into a unified model, enabling key-aware reconfiguration of SCADA control chains based on task security demands and real-time resource constraints. To resolve conflicts in key resource allocation between transmission system operators (TSOs) and distribution system operators (DSOs), we formulate a bi-level Stackelberg game and transform it into a mathematical program with complementarity constraints (MPCC). We further develop an efficient Level Decomposition-Complementarity Pruning (LD-CP) algorithm to solve the problem. To support reproducible evaluation, we build an end-to-end co-simulation platform that integrates physical-layer disruptions via OpenQKD-Sim, Q3P/IEC-104 protocol stack binding, and real-time control-chain monitoring through Grafana. Experimental results on the IEEE 39- and 118-bus systems show that our method increases task success rate by 25%, reduces peak frequency deviation by 70%, and improves key utilization to 83%. This work lays the foundation for future quantum-secure control systems in power grid operations.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-16T16:12:35Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Ziqing Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25411v1</id>
+    <title>Quantum-Resilient Threat Modelling for Secure RIS-Assisted ISAC in 6G UAV Corridors</title>
+    <updated>2025-10-29T11:28:42Z</updated>
+    <link href="https://arxiv.org/abs/2510.25411v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25411v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid deployment of unmanned aerial vehicle (UAV) corridors in sixth-generation (6G) networks requires safe, intelligence-driven integrated sensing and communications (ISAC). Reconfigurable intelligent surfaces (RIS) enhance spectrum efficiency, localisation accuracy, and situational awareness, while introducing new vulnerabilities. The rise of quantum computing increases the risks associated with harvest-now-decrypt-later strategies and quantum-enhanced spoofing. We propose a Quantum-Resilient Threat Modelling (QRTM) framework for RIS-assisted ISAC in UAV corridors to address these challenges. QRTM integrates classical, quantum-ready, and quantum-aided adversaries, countered using post-quantum cryptographic (PQC) primitives: ML-KEM for key establishment and Falcon for authentication, both embedded within RIS control signalling and UAV coordination. To strengthen security sensing, the framework introduces RIS-coded scene watermarking validated through a generalised likelihood ratio test (GLRT), with its detection probability characterised by the Marcum Q function. Furthermore, a Secure ISAC Utility (SIU) jointly optimises secrecy rate, spoofing detection, and throughput under RIS constraints, enabled by a scheduler with computational complexity of O(n^2). Monte Carlo evaluations using 3GPP Release 19 mid-band urban-canyon models (7-15 GHz) demonstrate a spoof-detection probability approaching 0.99 at a false-alarm rate of 1e-3, secrecy-rate retention exceeding 90 percent against quantum-capable adversaries, and signal-interference utilisation improvements of about 25 percent compared with baselines. These results show a standards-compliant path towards reliable, quantum-resilient ISAC for UAV corridors in smart cities and non-terrestrial networks.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T11:28:42Z</published>
+    <arxiv:comment>6 Pages, 5figures</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>In Proceedings of the IEEE International Conference on Computational Intelligence, Security, and Artificial Intelligence (CISAI 2025), Saudi Arabia, 2025</arxiv:journal_ref>
+    <author>
+      <name>Sana Hafeez</name>
+    </author>
+    <author>
+      <name>Ghulam E Mustafa Abro</name>
+    </author>
+    <author>
+      <name>Hifza Mustafa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13238v2</id>
+    <title>Securing SIM-Assisted Wireless Networks via Quantum Reinforcement Learning</title>
+    <updated>2026-05-28T05:03:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.13238v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13238v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stacked intelligent metasurfaces (SIMs) have recently emerged as a powerful wave-domain technology that enables multi-stage manipulation of electromagnetic signals through multilayer programmable architectures. While SIMs offer unprecedented degrees of freedom for enhancing physical-layer security, their extremely large number of meta-atoms leads to a high-dimensional and strongly coupled optimization space, making conventional design approaches inefficient and difficult to scale. Moreover, existing deep reinforcement learning (DRL) techniques suffer from slow convergence and performance degradation in dynamic wireless environments with imperfect knowledge of passive eavesdroppers. To address these challenges, we propose a hybrid quantum proximal policy optimization (QPPO) framework for SIM-assisted secure communications that jointly optimizes transmit power allocation and SIM phase shifts to maximize the average secrecy rate under power and quality-of-service constraints. Specifically, a parameterized quantum circuit is embedded into the actor network, forming a hybrid classical-quantum policy architecture that enhances policy representation capability and exploration efficiency in high-dimensional continuous action spaces. Extensive simulations demonstrate that the proposed Q-PPO scheme consistently outperforms DRL baselines, achieving approximately 15% higher secrecy rates and 30% faster convergence under imperfect eavesdropper channel state information. These results establish Q-PPO as a powerful optimization paradigm for SIM-enabled secure wireless networks.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T18:53:33Z</published>
+    <arxiv:comment>Submitted to IEEE TCOM: 13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Le-Hung Hoang</name>
+    </author>
+    <author>
+      <name>Quang-Trung Luu</name>
+    </author>
+    <author>
+      <name>Dinh Thai Hoang</name>
+    </author>
+    <author>
+      <name>Diep N. Nguyen</name>
+    </author>
+    <author>
+      <name>Van-Dinh Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.02579v1</id>
+    <title>Joint Optimization of Model Partitioning and Resource Allocation for Anti-Jamming Collaborative Inference Systems</title>
+    <updated>2026-03-03T03:52:52Z</updated>
+    <link href="https://arxiv.org/abs/2603.02579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.02579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the increasing computational demands of deep neural network (DNN) inference on resource-constrained devices, DNN partitioning-based device-edge collaborative inference has emerged as a promising paradigm. However, the transmission of intermediate feature data is vulnerable to malicious jamming, which significantly degrades the overall inference performance. To counter this threat, this letter focuses on an anti-jamming collaborative inference system in the presence of a malicious jammer. In this system, a DNN model is partitioned into two distinct segments, which are executed by wireless devices and edge servers, respectively. We first analyze the effects of jamming and DNN partitioning on inference accuracy via data regression. Based on this, our objective is to maximize the system's revenue of delay and accuracy (RDA) under inference accuracy and computing resource constraints by jointly optimizing computation resource allocation, devices' transmit power, and DNN partitioning. To address the mixed-integer nonlinear programming problem, we propose an efficient alternating optimization-based algorithm, which decomposes the problem into three subproblems that are solved via Karush-Kuhn-Tucker conditions, convex optimization methods, and a quantum genetic algorithm, respectively. Extensive simulations demonstrate that our proposed scheme outperforms baselines in terms of RDA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-03T03:52:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mengru Wu</name>
+    </author>
+    <author>
+      <name>Jiawei Li</name>
+    </author>
+    <author>
+      <name>Jiaqi Wei</name>
+    </author>
+    <author>
+      <name>Bin Lyu</name>
+    </author>
+    <author>
+      <name>Kai-Kit Wong</name>
+    </author>
+    <author>
+      <name>Hyundong Shin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15649v1</id>
+    <title>Quantum Key Distribution Secured Federated Learning for Channel Estimation and Radar Spectrum Sensing in 6G Networks</title>
+    <updated>2026-03-05T08:50:27Z</updated>
+    <link href="https://arxiv.org/abs/2603.15649v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15649v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a federated learning framework secured by quantum key distribution (QKD) for wireless channel estimation and radar spectrum sensing in the next generation networks (NextG or Beyond 6G). A BB84-style protocol abstraction and pairwise additive masking are utilized to train clients' local models (CNN for channel estimation, U-Net for radar segmentation) and upload only masked model updates. The server aggregates without observing plain parameters; an eavesdropper without QKD keys cannot recover individual updates. Experiments show that secure FL achieves NMSE of 0.216 for channel estimation and 92.1\% accuracy with 0.72 mIoU for radar sensing. When an eavesdropper is present, QBER rises to $\sim$25\% and all rounds abort as intended; reconstruction error remains below $10^{-5}$, confirming correct aggregation.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-05T08:50:27Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ferhat Ozgur Catak</name>
+    </author>
+    <author>
+      <name>Murat Kuzlu</name>
+    </author>
+    <author>
+      <name>Jungwon Seo</name>
+    </author>
+    <author>
+      <name>Umit Cali</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.06226v1</id>
+    <title>End-to-End QKD Using LEO Satellite Networks</title>
+    <updated>2026-03-06T12:40:51Z</updated>
+    <link href="https://arxiv.org/abs/2603.06226v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.06226v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a satellite-based Quantum Key Distribution (QKD) network that enables global-scale, end-to-end secure key exchange without relying on trusted intermediate nodes. The network is formed by a ring constellation of satellites that maintain persistent inter-satellite connectivity and support two configurations: a polar Type-I constellation providing global coverage, and an equatorial Type-II constellation offering continuous, terrestrial-like operation. End-to-end secrecy is achieved through the use of Twin-field Quantum Key Distribution (TF-QKD) and a redundant XOR-based key-forwarding protocol, in which each forwarding step incorporates independently generated QKD keys from ground-satellite and inter-satellite links. As a result, the final secret key is never exposed to any intermediate satellite, eliminating the single-point vulnerabilities inherent in trusted-node networks. Scaling the network offers two benefits: improved security and higher key rates. Increasing the constellation size enhances security by forcing an adversary to compromise a larger number of nodes to break the protocol, while simultaneously improving link availability and key throughput. Using realistic uplink and Inter-Satellite Link (ISL) models, we compute finite-size secret-key lengths based on the Sending-or-not-sending (SNS)-TF-QKD protocol. Our results show that the achievable key rates scale favourably with constellation size, with Type-II constellations reaching operational continuity and generating multi-gigabit secret keys per day, demonstrating a practical route toward secure global quantum communication.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-06T12:40:51Z</published>
+    <arxiv:comment>7 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Sumit Chaudhary</name>
+    </author>
+    <author>
+      <name>Baqir Kazmi</name>
+    </author>
+    <author>
+      <name>Janis Nötzel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.13716v1</id>
+    <title>Multi-Agent SAC Enabled Beamforming Design for Joint Secret Key Generation and Data Transmission</title>
+    <updated>2026-03-14T02:49:20Z</updated>
+    <link href="https://arxiv.org/abs/2603.13716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.13716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physical layer key generation (PLKG) has emerged as a promising solution for achieving highly secured and low-latency key distribution, offering information-theoretic security that is inherently resilient to quantum attacks. However, simultaneously ensuring a high data transmission rate and a high secret key generation rate under eavesdropping attacks remains a major challenge. In time-division duplex (TDD) systems with multiple antennas, we derive closed-form expressions for both rates by modeling the legitimate channel as a time-correlated autoregressive (AR) process. This formulation leads to a highly nonconvex and time-coupled optimization problem, rendering traditional optimization methods ineffective. To address this issue, we propose a multi-agent soft actor-critic (SAC) framework equipped with a long short-term memory (LSTM) adversary prediction module to cope with the partial observability of the eavesdropper's mode. Simulation results demonstrate that the proposed approach achieves superior performance compared with other benchmark algorithms, while effectively balancing the trade-off between secret key generation rate and data transmission rate. The results also confirm the robustness of the proposed framework against intelligent eavesdropping and partial observation uncertainty.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-14T02:49:20Z</published>
+    <arxiv:comment>To appear in IEEE WCNC 2026 Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Ziao Wang</name>
+    </author>
+    <author>
+      <name>Zheng Dong</name>
+    </author>
+    <author>
+      <name>He Chen</name>
+    </author>
+    <author>
+      <name>Jun Chen</name>
+    </author>
+    <author>
+      <name>Dongxiao Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.27278v1</id>
+    <title>Quantum Bit Error Rate Analysis in BB84 Quantum Key Distribution: Measurement, Statistical Estimation, and Eavesdropping Detection</title>
+    <updated>2026-03-28T14:19:41Z</updated>
+    <link href="https://arxiv.org/abs/2603.27278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.27278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum Key Distribution (QKD) provides information-theoretic security by exploiting the principles of quantum mechanics. Among QKD protocols, the BB84 scheme remains the most widely adopted for both theoretical research and practical implementation. A critical parameter determining the reliability and security of BB84 is the Quantum Bit Error Rate (QBER), which quantifies errors in the sifted key arising from channel noise or potential eavesdropping. This paper presents a systematic review and analysis of QBER within the BB84 protocol, examining its calculation, statistical estimation methods, and role in detecting eavesdropping activity. Simulation results, corroborated by reported experimental observations, reveal a near-linear relationship between eavesdropping intensity and QBER, with values approaching 25% under full intercept-resend attacks. Four confidence interval estimation methods, Wald, Wilson, Clopper-Pearson, and Hoeffding's inequality, are compared for robust QBER analysis in finite-key scenarios. Protocol enhancements, including decoy-state methods, hybrid cryptographic models, and quantum-resistant authentication, are discussed as mechanisms to mitigate errors and strengthen resilience across fiber, free-space, underwater, and satellite QKD systems. Open challenges in distinguishing noise-induced errors from malicious eavesdropping, and the role of adaptive error correction and machine-learning-assisted QBER estimation in future quantum networks, are identified as key directions for further research.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-28T14:19:41Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Jaydeep Rath</name>
+    </author>
+    <author>
+      <name>Prajwal Panth</name>
+    </author>
+    <author>
+      <name>P. S. N. Bhaskar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03611v1</id>
+    <title>Q-FE: A Quantum-Native 6G Far-Edge Architecture Securing Industrial IoT Digital Twins via CSIDH-PQC and Asynchronous Federated Learning</title>
+    <updated>2026-06-02T13:13:44Z</updated>
+    <link href="https://arxiv.org/abs/2606.03611v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03611v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sixth-generation (6G) wireless networks will underpin ultra-dense Industrial IoT (IIoT) ecosystems in which resource-constrained Far-Edge devices -- autonomous mobile robots, industrial actuators, connected vehicles -- must simultaneously satisfy sub-millisecond latency, $10^{-7}$-class reliability, and decades-long cryptographic security. Current architectures delegate Digital Twin (DT) computation to centralised cloud or Mobile Edge Computing (MEC) servers, incurring prohibitive round-trip latency, and rely on classical public-key cryptography vulnerable to quantum attacks under the harvest-now, decrypt-later (HNDL) threat model. We propose Q-FE, a Quantum-Native 6G Far-Edge architecture integrating three co-designed components: (i) Micro-Digital Twins ($μ$DTs) co-located with 6G base stations and high-capability endpoints; (ii) a Cross-Layer Post-Quantum Key Exchange module embedding CSIDH-512 isogeny key material directly within MAC-layer control frames, exploiting the scheme's uniquely compact keys ($\le 64$ bytes) to avoid packet fragmentation; and (iii) an Asynchronous Federated Learning (AFL) protocol governed by lightweight DAG smart contracts at MEC nodes, eliminating straggler bottlenecks and preventing model-poisoning and Sybil attacks without exposing raw data. End-to-end simulations (NS-3 + PySyft) demonstrate that Q-FE reduces MAC-layer overhead by 62% versus ML-KEM/Kyber-1024, maintains P99.9 URLLC latency at 0.78 ms, and accelerates global-model convergence by 31% over synchronous Federated Learning. Protocol complexity analysis confirms $O(N \log R)$ per aggregation round, and $μ$DT handover migration completes in $1.9 \pm 0.3$ ms across $10^4$ simulated events. A formal threat model confirms resilience against quantum eavesdropping, model-poisoning, and Sybil attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T13:13:44Z</published>
+    <arxiv:comment>This work has been submitted to the IEEE for possible publication</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Vincenzo Sammartino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.10374v1</id>
+    <title>Equation Asymmetry: An Algebraic Framework for Unifying Secrecy and Covertness in Information-Theoretic Security</title>
+    <updated>2026-06-09T03:35:33Z</updated>
+    <link href="https://arxiv.org/abs/2606.10374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.10374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the algebraic structure underlying a broad class of information-theoretic security problems. We define the equation asymmetry degree (EAD) as $Φ= (n - r)/n$, where $n$ is the signal embedding dimension and $r$ is the effective rank of the adversary's observation matrix. This single parameter is shown to simultaneously govern both secrecy (measured by equivocation $H(M|Y_E)$) and covertness (measured by detection error probability $P_e$). On finite fields $\mathbb{F}_q$, we establish the equivocation lower bound $H(M|Y_E) = \min(k, n - r_E) \log q$ with exact probabilistic conditions (Theorem~1), the secrecy capacity $C_s = (n - r_E) \log q$ with complete achievability and converse proofs (Theorem~2), and a strong converse (Theorem~8). In the continuous Gaussian regime, we derive a differential-entropy equivocation bound (Lemma~1), the high-SNR secrecy capacity asymptotics (Lemma~2), and a 2-Wasserstein distance covertness condition $W_2 \approx \sqrt{r_W} \cdot P / (2Nσ) \to 0$ (Theorem~5'). The EAD-SDoF equivalence $d_s = n \cdot Φ$ is established (Theorem~7). Both $η_s$ and $η_c$ are shown to be monotone functions of $Φ$ (Theorem~6), with a Pearson correlation of $0.997$ in continuous-domain experiments. Seven existing security schemes -- matrix embedding, MIMO wiretap, secure network coding, FRFT multi-angle transmission, traffic steganography, group-key secure summation, and MDS secure summation -- are unified under the common form $C_s = (n - r) \log q$. Post-quantum security follows from the information-theoretic hardness of underdetermined linear systems (Theorem~9). All numerical experiments are reproducible with open-source code.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-09T03:35:33Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Wang Hao</name>
+    </author>
+    <author>
+      <name>Zhang Kuang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.20240v1</id>
+    <title>QUASAR: A Quantum-Classical Neural Network for SAR Satellite Physical-Layer Authentication</title>
+    <updated>2026-08-20T16:31:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.20240v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.20240v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>X-band SAR satellites (8-12 GHz) play a critical role in disaster response, environmental monitoring, and military intelligence. Yet, they lack robust physical-layer authentication (PLA), a security layer orthogonal to cryptographic solutions. Existing PLA systems, typically based on radio-frequency fingerprinting, are often limited to sub-6 GHz frequencies and rely on classical deep learning. However, this approach underfits the IQ phase nonlinearities that distinguish satellite hardware. In this paper, we present QUASAR, to the best of our knowledge the first quantum-classical hybrid architecture that fuses a CNN spectrogram encoder with a variational quantum circuit (VQC) to provide PLA to X-band SAR signals. Our solution enjoys two distinctive features: (i) it is markedly more data-efficient than classical machine learning, requiring only 10% of the training data to match the accuracy of classical baselines -- data collection being notoriously the most time-consuming phase of PLA; and, (ii) at an equal data budget, it improves classification accuracy over those baselines. In detail, we test our solution under three adversarial scenarios: replay, crafted-IQ injection, and space-borne spoofing. QUASAR rejects spoofed transmissions in 89.7%, 94.1%, and 81.3% of attempts, respectively, establishing the first quantum-enhanced physical-layer classifier for satellite constellations. The fully detailed framework and the supporting results, other than being interesting on their own, show a novel research avenue for physical-layer authentication.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T16:31:01Z</published>
+    <arxiv:comment>Submitted to NDSS 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Vincenzo Sammartino</name>
+    </author>
+    <author>
+      <name>Nathanael Denis</name>
+    </author>
+    <author>
+      <name>Roberto Di Pietro</name>
+    </author>
+  </entry>
+</feed>
