@@ -6,6 +6,7 @@ Data and code for the article *Quantum Machine Learning for Wireless Physical-La
 
 | Path | Contents | Article |
 | --- | --- | --- |
+| `Supplementary_material.pdf` | Supplementary material of the article (Sections S-I to S-V) | Cited throughout |
 | `protocol.md` | Review protocol, the six search strings and the dated change log | Section II |
 | `search/` | arXiv exports and recorded query strings of the 28 September 2026 searches, an API query helper, Table 2 comparison evidence and the records of the 7 November 2026 citation search | Section II-B, Supplementary Section S-II-F |
 | `workbooks/Workbook_1_Screening.xlsx` | Title and abstract screening of 751 records, including the calibration sample | Section II-C, Fig. 2 |

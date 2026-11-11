@@ -1,0 +1,15 @@
+article_ref,citation_key,record_id,doi_or_arxiv,openalex_id,reference_sources,references_retrieved,citing_sources,citing_papers_retrieved,note
+[88],b761,R0507,10.1109/NTMS65597.2025.11076787,W6884595492,Publisher PDF 14,14,Semantic Scholar 2,2,Reference list from the publisher version.
+[89],b2026_secure_ldma,R0660,10.1109/JIOT.2026.3690067,W7160280625,Crossref 5; OpenAlex 55,60,none found,0,
+[90],R0659,R0659,10.1109/ATC67618.2025.11268562,W4417053067,Crossref 2; OpenAlex 17,19,OpenAlex 2; Semantic Scholar 2,4,
+[91],b2025_qdrl_uav_secrecy,R0697,10.1109/GCWKSHPS68340.2025.11591086,W7167608022,Crossref 2; OpenAlex 18,20,none found,0,
+[92],b2022_sharma_qrl,R0655,10.1109/ANTS56424.2022.10227807,W4386211184,Crossref 2; OpenAlex 21,23,OpenAlex 2,2,One OpenAlex reference identifier no longer resolves; Crossref gives that reference (10.1109/comst.2020.2988615).
+[93],b2026_qml_rffi,R0073,10.1109/JSAC.2026.3706263,W7165688912,Crossref 6; OpenAlex 42,48,OpenAlex 1,1,
+[94],b2024_qml_rffi_lora,R0372,10.1109/VTC2024-Fall63153.2024.10757594,W4406267252,Publisher PDF 24,24,OpenAlex 8; Semantic Scholar 2,10,OpenAlex holds no reference list; reference list from the publisher version.
+[95],b2026_quasar,R0603,arXiv:2608.20240,W7203935507,arXiv full text 46,46,none found,0,OpenAlex lists 10 of 46 references; reference list from the arXiv full text.
+[96],R0488,R0488,arXiv:2508.18085,W7077900661,OpenAlex 39; arXiv full text 24,63,OpenAlex 1,1,"OpenAlex lists 39 of 63 distinct references; the other 24 were taken from the arXiv full text, whose list repeats one entry."
+[97],R0542,R0542,10.1109/ICAIIC68212.2026.11454395,W7147113769,Crossref 1; OpenAlex 17,18,Semantic Scholar 1,1,
+[98],b2026_covert_qrl,R0692,10.1109/TMC.2026.3666828,W7130686756,Crossref 4; OpenAlex 50,54,OpenAlex 2; Semantic Scholar 2,4,
+[99],R0726,R0726,10.1109/TNSE.2026.3681352,W7151025394,Crossref 7; OpenAlex 80,87,OpenAlex 2,2,
+[100],R0558,R0558,10.1109/TIFS.2021.3056215,W3126165479,Crossref 9; OpenAlex 36,45,OpenAlex 17; Semantic Scholar 5,22,One OpenAlex reference identifier no longer resolves; Crossref gives that reference (10.1109/jproc.2018.2867029).
+[101],R0560,R0560,10.1109/JIOT.2023.3268608,W4366667988,Crossref 7; OpenAlex 27,34,OpenAlex 8; Semantic Scholar 2,10,One OpenAlex reference identifier no longer resolves; Crossref gives that reference (10.1109/jproc.2018.2867029). Crossref gives only a year for reference [1].

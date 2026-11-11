@@ -1,0 +1,30 @@
+Shot budget (SNR 10.0 dB, 2000 draws, seed 1234)
+Nt  mapping       S_5pct      S_1pct   p95_loss_at_S5   time_ms_at_100us
+ 4  direct        449.96     2553.79        15.64%             45.0
+ 4  rescaled      231.48     1322.38        15.70%             23.0
+16  direct       1117.77     6648.67        12.73%            110.0
+16  rescaled      229.91     1374.19        13.00%             23.0
+64  direct       3234.47    19992.94        12.08%            320.0
+64  rescaled      232.98     1443.56        12.16%             23.0
+
+Latency sensitivity: rounded S_5pct, sequential shots, G=1
+Nt= 4 direct     10 us:      4.5 ms, 0.10 to 17 x coherence time
+Nt= 4 direct    100 us:     45.0 ms, 1.03 to 166 x coherence time
+Nt= 4 direct   1000 us:    450.0 ms, 10.35 to 1656 x coherence time
+Nt= 4 rescaled   10 us:      2.3 ms, 0.05 to 8 x coherence time
+Nt= 4 rescaled  100 us:     23.0 ms, 0.53 to 85 x coherence time
+Nt= 4 rescaled 1000 us:    230.0 ms, 5.29 to 846 x coherence time
+Nt=16 direct     10 us:     11.0 ms, 0.25 to 40 x coherence time
+Nt=16 direct    100 us:    110.0 ms, 2.53 to 405 x coherence time
+Nt=16 direct   1000 us:   1100.0 ms, 25.30 to 4048 x coherence time
+Nt=16 rescaled   10 us:      2.3 ms, 0.05 to 8 x coherence time
+Nt=16 rescaled  100 us:     23.0 ms, 0.53 to 85 x coherence time
+Nt=16 rescaled 1000 us:    230.0 ms, 5.29 to 846 x coherence time
+Nt=64 direct     10 us:     32.0 ms, 0.74 to 118 x coherence time
+Nt=64 direct    100 us:    320.0 ms, 7.36 to 1178 x coherence time
+Nt=64 direct   1000 us:   3200.0 ms, 73.60 to 11776 x coherence time
+Nt=64 rescaled   10 us:      2.3 ms, 0.05 to 8 x coherence time
+Nt=64 rescaled  100 us:     23.0 ms, 0.53 to 85 x coherence time
+Nt=64 rescaled 1000 us:    230.0 ms, 5.29 to 846 x coherence time
+
+Coherence times, 0.423/f_d: 3.5 GHz at 3 km/h = 43.478 ms, 3.5 GHz at 60 km/h = 2.174 ms, 28 GHz at 3 km/h = 5.435 ms, 28 GHz at 60 km/h = 0.272 ms

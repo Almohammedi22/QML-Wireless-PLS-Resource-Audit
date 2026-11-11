@@ -169,7 +169,7 @@ Tier 2 requires a learning model: a quantum model whose parameters are trained, 
 
 Reviewers. Reviewer A is the first author. Reviewer B is a second reviewer who is not an author; reviewer B screened the calibration sample independently, cross-checked the 47 full-text exclusions and 15 Tier-1 decisions, and checked five audit fields for all 15 Tier-1 studies (9 November 2026 entries). The first author resolves disagreements and makes the final eligibility decisions. Deviations from the reviewer roles set out below are recorded in the change log.
 
-Tool assistance. ChatGPT (OpenAI, including Codex) and Claude (Anthropic) assisted with parts of the screening, extraction and source checks under the first author's direction. They were not used for κ. The first author checked their output and made all final decisions.
+Tool assistance. ChatGPT (OpenAI, including Codex) and Claude (Anthropic) assisted with parts of the screening, extraction and source checks under the first author's direction. They were not a rater in the calibration κ. The first author checked their output and made all final decisions.
 
 | Code | Reason |
 |---|---|

@@ -1,0 +1,152 @@
+{
+  "snr_db": 10,
+  "trials": 2000,
+  "reference_seed": 1234,
+  "other_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "model": "idealized wide-output measurement, one real component per qubit",
+  "results": [
+    {
+      "nt": 4,
+      "gaussian_threshold": 449.9614980561078,
+      "other_seed_thresholds": [
+        418.00868258825216,
+        434.8925400197223,
+        447.8362372619454,
+        454.1026990786561,
+        452.84799957121726,
+        457.0157663845668,
+        456.53831741950285,
+        435.7222597528699,
+        436.6609428176878,
+        467.1296224889909
+      ],
+      "seed_min": 418.00868258825216,
+      "seed_max": 467.1296224889909,
+      "exact_variance_threshold": 405.47807564137116,
+      "variance_change_percent": -9.886050830328996,
+      "binomial_at_unrounded_threshold": {
+        "shots": 450,
+        "repetitions": 20,
+        "mean_loss": 0.04553227063692267,
+        "channel_standard_error": 0.0005241198654581517,
+        "approx_95pct_interval": [
+          0.04450499570062469,
+          0.046559545573220645
+        ]
+      },
+      "binomial_at_table_budget": {
+        "shots": 450,
+        "repetitions": 20,
+        "mean_loss": 0.04553227063692267,
+        "channel_standard_error": 0.0005241198654581517,
+        "approx_95pct_interval": [
+          0.04450499570062469,
+          0.046559545573220645
+        ]
+      },
+      "correlated_gaussian_thresholds": {
+        "0.25": 385.3517994823709,
+        "0.5": 368.86856233559666
+      }
+    },
+    {
+      "nt": 16,
+      "gaussian_threshold": 1117.7670105850466,
+      "other_seed_thresholds": [
+        1129.442366981531,
+        1162.8434213157002,
+        1099.2964035290377,
+        1136.0589001051555,
+        1119.3488414668443,
+        1141.8011724400217,
+        1142.433186833966,
+        1121.070761974095,
+        1131.5276247172048,
+        1097.4729615912258
+      ],
+      "seed_min": 1097.4729615912258,
+      "seed_max": 1162.8434213157002,
+      "exact_variance_threshold": 1083.6599822334724,
+      "variance_change_percent": -3.051353996726236,
+      "binomial_at_unrounded_threshold": {
+        "shots": 1118,
+        "repetitions": 20,
+        "mean_loss": 0.04917091585855714,
+        "channel_standard_error": 0.0002809398486528475,
+        "approx_95pct_interval": [
+          0.048620273755197556,
+          0.04972155796191672
+        ]
+      },
+      "binomial_at_table_budget": {
+        "shots": 1100,
+        "repetitions": 20,
+        "mean_loss": 0.05013046912877446,
+        "channel_standard_error": 0.00029330647066018163,
+        "approx_95pct_interval": [
+          0.0495555884462805,
+          0.05070534981126842
+        ]
+      },
+      "correlated_gaussian_thresholds": {
+        "0.25": 1047.2400292172656,
+        "0.5": 1000.8435874655011
+      }
+    },
+    {
+      "nt": 64,
+      "gaussian_threshold": 3234.4748007376775,
+      "other_seed_thresholds": [
+        3306.257697131303,
+        3378.802581958284,
+        3314.8068026757837,
+        3385.8733984998285,
+        3298.7446117969594,
+        3422.291641733876,
+        3308.4946151430377,
+        3402.987482235949,
+        3264.845316420019,
+        3380.8806996773833
+      ],
+      "seed_min": 3264.845316420019,
+      "seed_max": 3422.291641733876,
+      "exact_variance_threshold": 3209.908218693807,
+      "variance_change_percent": -0.7595230619285576,
+      "binomial_at_unrounded_threshold": {
+        "shots": 3235,
+        "repetitions": 20,
+        "mean_loss": 0.05100773794126396,
+        "channel_standard_error": 0.00021468189427760912,
+        "approx_95pct_interval": [
+          0.05058696142847985,
+          0.05142851445404807
+        ]
+      },
+      "binomial_at_table_budget": {
+        "shots": 3200,
+        "repetitions": 20,
+        "mean_loss": 0.05113453206658841,
+        "channel_standard_error": 0.00020900696770188092,
+        "approx_95pct_interval": [
+          0.050724878409892725,
+          0.0515441857232841
+        ]
+      },
+      "correlated_gaussian_thresholds": {
+        "0.25": 3173.6028814958386,
+        "0.5": 3023.319246449176
+      }
+    }
+  ]
+}
